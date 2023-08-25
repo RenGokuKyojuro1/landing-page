@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Your Landing Page</title>
+<style>
+
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #2667cf5f;
+  }
+
+  .header {
+    background-color: #7a14daa3;
+    color: rgb(242, 236, 236);
+    text-align: center;
+    padding: 1rem;
+
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+  }
+
+  .left-column {
+    flex: 1;
+    padding-right: 2rem;
+  }
+
+  .right-column {
+    flex: 1;
+    padding-left: 2rem;
+  }
+
+  .cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #123bf3;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+
+  .footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #7a14daa3;
+    color: rgba(245, 243, 248, 0.973);
+  }
+</style>
+</head>
+<body>
+
+
+  <div class="header">
+    <h1>Welcome to Our Landing Page</h1>
+    <p>Your Source for Exciting Stuff</p>
+  </div>
+  
+  <div class="container">
+    <div class="left-column">
+      <h2>About Us</h2>
+      <p>Exploring the Cosmos, Expanding Consciousness: Bridging the Wonders of Space and the Depths of Spirituality.</p>
+    </div>
+    <div class="right-column">
+      <h2>Get Started</h2>
+      <p>Sign up now and get access to exclusive Books and Space research stuff.</p>
+      <a href="#" class="cta-button">Sign Up</a>
+    </div>
+  </div>
+  
+  <div class="footer">
+    <p>&copy; 2023 Space Research. All rights reserved.</p>
+  </div>
+</body>
+</html>
+
+
